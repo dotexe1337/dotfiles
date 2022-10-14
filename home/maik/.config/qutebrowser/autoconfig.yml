@@ -8,8 +8,23 @@ config_version: 2
 settings:
   auto_save.session:
     global: false
+  bindings.commands:
+    global:
+      normal:
+        J: tab-prev
+        K: tab-next
+        j: scroll down
+        k: scroll up
   content.blocking.method:
     global: both
+  content.notifications.enabled:
+    https://dotexe.cf: true
+  downloads.location.directory:
+    global: /home/maik/dl
+  fonts.default_family:
+    global: Noto Sans Mono
+  fonts.default_size:
+    global: 12px
   input.forward_unbound_keys:
     global: none
   input.media_keys:
